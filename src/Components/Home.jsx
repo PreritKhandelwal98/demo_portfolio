@@ -1,14 +1,14 @@
 import React from "react";
 import arrowSvg from "../images/down-arrow.svg";
 import PropTypes from "prop-types";
-// import image from "../images/prerit_img.jpg";
+import image from "../images/prerit_img.jpg";
 
-const imageAltText = "Prerit Khandelwal";
+const imageAltText = "Prerit Khandelw";
 
 const Home = ({ name, title }) => {
   return (
     <section id="home" className="min-height">
-      <img className="background" src="#" alt="" />
+      <img className="background" src={image} alt="" />
       <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
         <h1>{name}</h1>
         <h2>{title}</h2>

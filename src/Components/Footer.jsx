@@ -65,13 +65,8 @@ const Footer = (props) => {
             <img src={envelopeIcon} alt="email" className="socialIcon" />
           </a>
         )}
-        {devDotTo && (
-          <a href={`https://dev.to/${devDotTo}`} target="_blank" rel="noopener noreferrer">
-            <img src={devDotToIcon} alt="Dev.to" className="socialIcon" />
-          </a>
-        )}
         {gitHub && (
-          <a href={`https://github.com/${gitHub}`} target="_blank" rel="noopener noreferrer">
+          <a href={`https://github.com/PreritKhandelwal98`} target="_blank" rel="noopener noreferrer">
             <img src={gitHubIcon} alt="GitHub" className="socialIcon" />
           </a>
         )}
@@ -93,23 +88,9 @@ const Footer = (props) => {
             <img src={linkedInIcon} alt="LinkedIn" className="socialIcon" />
           </a>
         )}
-        {medium && (
-          <a href={`https://medium.com/@${medium}`} target="_blank" rel="noopener noreferrer">
-            <img src={mediumIcon} alt="Medium" className="socialIcon" />
-          </a>
-        )}
         {twitter && (
           <a href={`https://twitter.com/${twitter}`} target="_blank" rel="noopener noreferrer">
             <img src={twitterIcon} alt="Twitter" className="socialIcon" />
-          </a>
-        )}
-        {youTube && (
-          <a
-            href={`https://www.youtube.com/c/${youTube}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={youTubeIcon} alt="YouTube" className="socialIcon" />
           </a>
         )}
       </div>
